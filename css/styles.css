@@ -292,7 +292,7 @@ border-bottom: 2px solid var(--color-secundario);
 }
 .contenedor__formulario--form a{
     padding: 18px;
-    width: 21%;
+    width: 180px;
     background-color: var(--color-primario);
     color: var(--color-terciario);
     text-decoration: none;
@@ -331,14 +331,14 @@ gap: 10px;
 
     }
     .text__titulo{
-        font-size: 30px;
+        font-size: 2.813em;
     }
     .text__subtitulo{
         font-size: 20px;
     }
     .contenedor__portada--img{
         width: 15em;
-        height: 15em;
+        height: 20em;
     }
     .contenedor__Habilidades{
         padding: 60px;
