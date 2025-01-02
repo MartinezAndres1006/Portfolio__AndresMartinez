@@ -344,11 +344,25 @@ gap: 10px;
     }
     
 }
-@media (max-width: 768px) {
+@media screen and (560px <= width <= 768px) {
     .contenedor__portada{
         flex-direction: row-reverse;
-        width: 100%;
+        width: auto;
     }
+    
+    .contenedor__proyectos--items{
+        margin: 40px;
+        width: auto;
+    }
+    .contenedor__proyectos--item img{
+        width: 9.5em;
+        height: 6.125em;
+    }
+    
+    .textos__sobremi{
+        height: auto;
+    }
+    
     .text__titulo{
         font-size: 20px;
     }
@@ -361,6 +375,13 @@ gap: 10px;
     .contenedor__formacion{
         height: auto;
         padding: 15px;
+        width: auto;
+    }
+    .contenedor__proyectos{
+        width: auto;
+    }
+    .contenedor__proyectos--items{
+        width: auto;
     }
     .barra__navegacion{
         display: flex;
@@ -375,8 +396,17 @@ gap: 10px;
     .contenedor__textos{
         padding:25px;
     }
+
+    .contenedor__contacto{
+        width: auto;
+    }
+
+
+    .contenedor__Habilidades{
+        width: auto;
+    }
 }
-@media (max-width:560px) {
+@media screen and (320px <= width <= 560px) {
     .contenedor__cabecera{
         padding: 50px;
         display: flex;
@@ -386,8 +416,14 @@ gap: 10px;
     }
     .contenedor__portada{
         flex-direction: column-reverse;
+        height: auto;
     }
-
+    .contenedor__proyectos{
+        width: auto;
+    }
+.contenedor__proyectos--item{
+    width: auto;
+}
 
     .contenedor__portada--img{
      padding: 20px;   
@@ -399,4 +435,69 @@ gap: 10px;
         padding: 10px;
         width: 100%;
     }
+    .textos__sobremi{
+        height: auto;
+    }
+/* -------  */
+
+
+.contenedor__proyectos--items{
+    margin: 40px;
+    width: auto;
+}
+.contenedor__proyectos--item img{
+    width: 9.5em;
+    height: 6.125em;
+}
+
+.text__subtitulo{
+    font-size: 10px;
+}
+.contenedor__formacion--items{
+    flex-direction: column;
+}
+.contenedor__formacion{
+    height: auto;
+    padding: 15px;
+    width: auto;
+}
+.contenedor__proyectos{
+    width: auto;
+}
+.contenedor__proyectos--items{
+    width: auto;
+}
+.barra__navegacion{
+    display: flex;
+    justify-content: flex-start;
+}
+.barra__navegacion--lista{
+    display: none;
+}
+.contenedor__cabecera{
+    padding: 20px;
+}
+
+.contenedor__contacto{
+    width: auto;
+}
+
+
+.contenedor__Habilidades{
+    width: auto;
+}
+
+.contenedor__formulario{
+    width: auto;
+}
+
+.contenedor__formulario--form--estruc{
+    width: auto;
+}
+
+
+
+
+
+
 }
